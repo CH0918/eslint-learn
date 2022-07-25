@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+		"extends": "eslint:recommended",
+    "rules": {
+			// 分好
+			"semi": ["error", "always"],
+			// 单引号
+			"quotes": ["error", "single"],
+			// 缩进
+			"indent": ["error", 2]
+    }
+}
